@@ -9,6 +9,7 @@ public interface ListI<E> extends Iterable<E> {
     boolean contains(E obj);
     E peekFirst();
     E peekLast();
+
     //boolean isEmpty();
     //boolean isFull();
     //void makeEmpty();

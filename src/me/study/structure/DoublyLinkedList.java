@@ -10,6 +10,7 @@ public class DoublyLinkedList<E> implements ListI<E> {
         E data;
         Node<E> next;
         Node<E> prev;
+
         public Node(E obj){
             data=obj;
             next=null;
