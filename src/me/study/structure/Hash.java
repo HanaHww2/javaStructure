@@ -12,6 +12,7 @@ public class Hash<K, V> implements HashI<K,V> {
     class HashElement<K, V> implements Comparable<HashElement<K,V>> {
         K key;
         V value;
+
         public HashElement(K key, V value) {
             this.key = key;
             this.value = value;
